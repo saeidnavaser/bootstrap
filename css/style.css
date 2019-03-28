@@ -1,0 +1,64 @@
+html, body{
+  background-color: white;
+  font-family: 'Lato', 'Roboto', sans-serif;
+  height: 100vh;
+    overflow-x: hidden;
+
+}
+.navbar{
+padding: 0;
+margin:0;
+background-color: #FF00AA;
+}
+
+#logo{
+color: white;
+font-family: 'Berkshire Swash', cursive;
+font-size: 25px;
+padding-left: 50px;
+}
+
+.navbar-nav{
+   padding-right: 15px;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: Lato;
+
+
+}
+.nav-item{
+     padding-left: 13px;
+     color: black;
+
+}
+.carousel-item{
+ size=100%;
+   z-index: 1;
+  height: 500px;
+}
+
+.list-group{
+margin-right: 55px;
+margin-left: 35px;
+padding: 0;
+}
+.list-group-item{
+color: #FF00AA;
+font-size: 17px;
+text-align: left;
+}
+
+.floatRight  {
+	float: right;
+}
+.öffen{
+background-color: #ededed;
+}
+
+.prod{
+margin-left: 35px;
+}
+.price{
+float: right;
+color: #FF00AA;
+}
