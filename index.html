@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,7 +20,6 @@
     <title>Heircute!</title>
 </head>
 <body>
-
 
 <nav class="navbar navbar-expand-lg navbar-light">
     <a id="logo" class="navbar-brand" href="#">Hiarcute</a>
@@ -53,85 +56,454 @@
 </nav>
 
 <div class="header">
-    <div class="raw">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/s-1.jpg" class="d-block w-100" alt="ph1">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/s-2.jpg" class="d-block w-100" alt="ph2">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/s-3.jpg" class="d-block w-100" alt="ph3">
-                </div>
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/s-1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/s-2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/s-3.jpg" alt="Third slide">
             </div>
         </div>
+        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
+</div>
 
-    <section class="tags&produkte">
-        <div class="card">
-            <div class="card-body öffen">
-                <br>
-                <div class="row floatRight">
-                    <ul class="list-group">
-                        <li class="list-group-item"><strong>Öffnungszeiten:</strong></li>
-                        <li class="list-group-item"><strong>MONTAG</strong>&nbsp; &nbsp; GESCHLOSSEN</li>
-                        <li class="list-group-item"><strong>DIENSTAG</strong>&nbsp; &nbsp; 8:30 - 18:00</li>
-                        <li class="list-group-item"><strong>MITTWOCH</strong>&nbsp; &nbsp; 8:30 - 18:00</li>
-                        <li class="list-group-item"><strong>DONNERSTAG</strong>&nbsp; &nbsp; 8:30 - 19:00</li>
-                        <li class="list-group-item"><strong>FREITAG</strong>&nbsp; &nbsp; 8:30 - 18:00</li>
-                        <li class="list-group-item"><strong>SAMSTAG</strong>&nbsp; &nbsp; 8:00 - 13:00</li>
-                        <li class="list-group-item"><strong>SONNTAG</strong>&nbsp; &nbsp; GESCHLOSSEN</li>
-                    </ul>
+<section class="ö-list">
+    <div class="card">
+        <div class="card-body" id="ö-list">
+            <p><strong>Öffnungszeiten:</strong>&nbsp&nbsp&nbsp Mon-Fei: 8:00 - 18:00&nbsp&nbsp&nbsp Sam-Sonn:
+                geschlossen</p>
+        </div>
+    </div>
+</section>
+
+<section class="pt-5 mt-3 pb-3" id="product-c">
+    <div class="container">
+        <h2 id="n-pro"><strong>NEU PRODUKTE:</strong></h2>
+        <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="img/pro-1.jpg" class="card-img-top" alt="Prod-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Prod-1</h5>
+                        <hr>
+                        <p class="card-text">all info about product</p>
+                    </div>
+                    <div><a href="#" id="buynow"><strong>jetzt kaufen 35$</strong></a></div>
+                    <br>
                 </div>
-                <div class="raw prod">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src="img/pro-1.jpg" class="card-img-top" alt="pro-1">
-                            <div class="card-body">
-                                <h5 class="card-title">pro-1</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <h6 class="price">15 $</h6>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/pro-2.jpg" class="card-img-top" alt="pro-2">
-                            <div class="card-body">
-                                <h5 class="card-title">pro-2</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-                                <h6 class="price">15 $</h6>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/pro-3.jpg" class="card-img-top" alt="pro-3">
-                            <div class="card-body">
-                                <h5 class="card-title">pro-3</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This card has even longer content than the first to
-                                    show that equal height action.</p>
-                                <h6 class="price">15 $</h6>
-                            </div>
-                        </div>
+                <div class="card">
+                    <img src="img/pro-2.jpg" class="card-img-top" alt="Prod-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Prod-2</h5>
+                        <hr>
+                        <p class="card-text">all info about product</p>
+                    </div>
+                    <div><a href="#" id="buynow"><strong>jetzt kaufen 155$</strong></a></div>
+                    <br>
+                </div>
+                <div class="card">
+                    <img src="img/pro-3.jpg" class="card-img-top" alt="Prod-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Prod-3</h5>
+                        <hr>
+                        <p class="card-text">all info about product</p>
+                    </div>
+                    <div><a href="#" id="buynow"><strong>jetzt kaufen 105$</strong></a></div>
+                    <br>
+                </div>
+                <div class="card">
+                    <img src="img/pro-4.jpg" class="card-img-top" alt="Prod-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Prod-4</h5>
+                        <hr>
+                        <p class="card-text">all info about product</p>
+                    </div>
+                    <div><a href="#" id="buynow"><strong>jetzt kaufen 85$</strong></a></div>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="UNSERE-SERVICES">
+    <div class="container">
+        <h2 id="our-ser"><strong>UNSERE SERVICES:</strong></h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Haarschnitt & Styling</h5>
+                        <hr>
+                        <p> Tel: +430000000</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <img src="img/s-2.jpg" class="card-img-top" alt="serv-1">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">ONLINESHOP</h5>
+                        <hr>
+                        <p> Tel: +430000000</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <img src="img/s-1.jpg" class="card-img-top" alt="serv-2">
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="aboutus">
+    <div class="card">
+        <div class="card-body" id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body" id="about">
+                                <a id="logo2" class="card-title" href="#">Über Hiarcute</a>
+                                <br>
+                                <hr>
+                                <img src="img/s-4.jpg" class="card-img" alt="serv-1">
+                                <p class="card-text" id="a-t">With supporting text below as a natural
+                                    lead-in to additional content.
+                                    With supporting text below as a natural lead-in to additional
+                                    content.With supporting text below as a natural lead-in
+                                    to additional content.With supporting text below as a natural
+                                    lead-in to additional content.With supporting text below as a
+                                    natural lead-in to additional content.
+                                </p>
+
+                                <a id="mehr" class="card-title" href="#">Mehr ...>>></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="team">
+    <section class="pt-5 mt-3 pb-3" id="product-c">
+        <div class="container">
+            <h2 id="n-pro"><strong>UNSERE TEAM:</strong></h2>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="img/te-1.jpg" class="card-img-top" alt="Prod-1">
+                        <div class="card-body">
+                            <h5 class="card-title">name</h5>
+                            <hr>
+                            <p class="card-text">all info about me</p>
+                            <hr>
+                            <div class="social">
+                                <!--Facebook-->
+                                <a href="#" class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                                <!--Twitter-->
+                                <a href="#" class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+                                <!--Instagram-->
+                                <a href="#" class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+                                <!--Comments-->
+                                <a href="#" class="comm-ic mr-3" role="button"><i class="fas fa-lg fa-comments"></i></a>
+                                <!--Email-->
+                                <a href="#" class="email-ic mr-3" role="button"><i
+                                        class="far fa-lg fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/te-4.jpg" class="card-img-top" alt="Prod-2">
+                        <div class="card-body">
+                            <h5 class="card-title">name</h5>
+                            <hr>
+                            <p class="card-text">all info about me</p>
+                            <hr>
+                            <div class="social">
+                                <!--Facebook-->
+                                <a href="#" class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                                <!--Twitter-->
+                                <a href="#" class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+                                <!--Instagram-->
+                                <a href="#" class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+                                <!--Comments-->
+                                <a href="#" class="comm-ic mr-3" role="button"><i class="fas fa-lg fa-comments"></i></a>
+                                <!--Email-->
+                                <a href="#" class="email-ic mr-3" role="button"><i
+                                        class="far fa-lg fa-envelope"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/te-3.jpg" class="card-img-top" alt="Prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title">name</h5>
+                            <hr>
+                            <p class="card-text">all info about me</p>
+                            <hr>
+                            <div class="social">
+                                <!--Facebook-->
+                                <a href="#" class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                                <!--Twitter-->
+                                <a href="#" class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+                                <!--Instagram-->
+                                <a href="#" class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+                                <!--Comments-->
+                                <a href="#" class="comm-ic mr-3" role="button"><i class="fas fa-lg fa-comments"></i></a>
+                                <!--Email-->
+                                <a href="#" class="email-ic mr-3" role="button"><i
+                                        class="far fa-lg fa-envelope"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/te-2.jpg" class="card-img-top" alt="Prod-4">
+                        <div class="card-body">
+                            <h5 class="card-title">name</h5>
+                            <hr>
+                            <p class="card-text">all info about me</p>
+                            <hr>
+                            <div class="social">
+                                <!--Facebook-->
+                                <a href="#" class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                                <!--Twitter-->
+                                <a href="#" class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+                                <!--Instagram-->
+                                <a href="#" class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+                                <!--Comments-->
+                                <a href="#" class="comm-ic mr-3" role="button"><i class="fas fa-lg fa-comments"></i></a>
+                                <!--Email-->
+                                <a href="#" class="email-ic mr-3" role="button"><i
+                                        class="far fa-lg fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
+</section>
+
+<section class="KUNDEN">
+    <section class="pt-5 mt-3 pb-3" id="product-c">
+        <div class="container">
+            <h2 id="n-pro"><strong>UNSERE KUNDEN:</strong></h2>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="img/k-1.jpg" class="card-img-top" alt="Prod-1">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Anna Deynah</strong></h4>
+                            <p class="card-text" id="un-title"><strong>Web Designer</strong></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+                            <div class="orange-text" id="un-title">
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star-half-alt"> </i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/k-3.jpg" class="card-img-top" alt="Prod-2">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Sou Lani</strong></h4>
+                            <p class="card-text" id="un-title"><strong>Grafik Designer</strong></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+                            <div class="orange-text" id="un-title">
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star-half-alt"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/k-2.jpg" class="card-img-top" alt="Prod-3">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Maria Kate</strong></h4>
+                            <p class="card-text" id="un-title"><strong>Markting Manager</strong></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+                            <div class="orange-text" id="un-title">
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star-half-alt"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/k-4.jpg" class="card-img-top" alt="Prod-4">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>John Doe</strong></h4>
+                            <p class="card-text" id="un-title"><strong>Lehrer</strong></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+                            <div class="orange-text" id="un-title">
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star"> </i>
+                                <i class="fas fa-star-half-alt"> </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="footer">
+    <!-- Footer -->
+    <footer class="page-footer font-small blue-grey lighten-5" id="color-f">
+        <div style="background-color: #fff200;">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0" id="black-text">Verbinden Sie sich mit uns in sozialen Netzwerken!</h6>
+                    </div>
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <!-- Facebook -->
+                        <a href="#" class="fb-ic mr-4">
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="#" class="tw-ic mr-4">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a href="#" class="gplus-ic mr-4">
+                            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a href="#" class="li-ic mr-4">
+                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a href="#" class="ins-ic mr-4">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center text-md-left mt-5">
+
+            <div class="row mt-3 dark-grey-text">
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Firmenname</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p id="white-text">Here you can use rows and columns here to organize your footer content. Lorem
+                        ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Produkte</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a id="white-text" class="dark-grey-text" href="#!">Link 1</a>
+                    </p>
+                    <p>
+                        <a id="white-text" class="dark-grey-text" href="#!">Link 2</a>
+                    </p>
+                    <p>
+                        <a id="white-text" class="dark-grey-text" href="#!">Link 3</a>
+                    </p>
+                    <p>
+                        <a id="white-text" class="dark-grey-text" href="#!">Link 4</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Help links</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a id="white-text" class="dark-grey-text" href="#!">link</a>
+                    </p>
+                    <p>
+                        <a id="white-text" class="dark-grey-text" href="#!">link</a>
+                    </p>
+                    <p>
+                        <a id="white-text" class="dark-grey-text" href="#!">link</a>
+                    </p>
+                    <p>
+                        <a id="white-text" class="dark-grey-text" href="#!">link</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Kontakt</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i id="white-text" class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i id="white-text" class="fas fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i id="white-text" class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p>
+                        <i id="white-text" class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center text-white-50 py-3">© 2018 Copyright:
+            <a id="un-title" class="dark-grey-text" href="https://mdbootstrap.com/education/bootstrap/">Haircute</a>
+        </div>
+    </footer>
+</section>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>

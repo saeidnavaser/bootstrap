@@ -2,20 +2,20 @@ html, body{
   background-color: white;
   font-family: 'Lato', 'Roboto', sans-serif;
   height: 100vh;
-    overflow-x: hidden;
+  overflow-x: hidden;
 
 }
 .navbar{
-padding: 0;
-margin:0;
-background-color: #FF00AA;
+  padding: 0;
+  margin:0;
+  background-color: #fff200;
 }
 
 #logo{
-color: white;
-font-family: 'Berkshire Swash', cursive;
-font-size: 25px;
-padding-left: 50px;
+  color: black;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 35px;
+  padding-left: 50px;
 }
 
 .navbar-nav{
@@ -27,38 +27,128 @@ padding-left: 50px;
 
 }
 .nav-item{
-     padding-left: 13px;
-     color: black;
+   padding-left: 13px;
+   color: black;
+}
+#ö-list{
+   background-color: black;
+   color: #fff200;
+   text-align: center;
+   font-size: 20px;
+   margin: 0;
+   padding-bottom: 10px;
+}
+#n-pro{
+   padding: 0;
+   margin-left: 20px;
+   margin-bottom:20px;
+   font-size: 30px;
+   font-family: 'Zilla Slab Highlight', cursive;
+}
+#product1{
+   margin-right: 25px;
+   color: #fff200;
+}
+#product2{
+   margin-right: 25px;
+   color: #fff200;
+}
+#product3{
+   margin-right: 25px;
+   color: #fff200;
+}
+#product4{
+   margin-right: 25px;
+   color: #fff200;
+}
+.card:hover {
+   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1),0 3px 5px 0 rgba(0,0,0,0.05);
+}
+#our-ser{
+   padding: 0;
+   margin-left: 20px;
+   margin-bottom:20px;
+   font-size: 30px;
+   font-family: 'Zilla Slab Highlight', cursive;
+}
+#buynow{
+   text-decoration: none;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin-right: 20px;
+   background-color: #fff200;
+   color: black;
+}
+#buynow:hover{
+   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1),0 3px 5px 0 rgba(0,0,0,0.05);
+}
+#product-c{
+   margin: 40px;
+}
+.UNSERE-SERVICES{
+   margin: 20px;
+}
+#about{
+   background-color: black;
+   color: #fff200;
+}
+#logo2{
+   color: #fff200;
+   font-family: 'Zilla Slab Highlight', cursive;
+   font-size: 35px;
+   margin-left: 50px;
+}
+#a-t{
+   margin-top: 30px;
+   color: white;
+}
+.card-img{
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.aboutus{
+   margin-top: 5%;
+}
+#about{
+   background-color: black;
+}
+#mehr{
+   font-size : 20px;
+   color: #fff200;
+   text-align: right;
+   float: right;
+   padding-right: 80px;
+}
+.social{
+   text-align: center;
+}
+.mr-3{
+   color: black;
+}
+.mr-3:hover{
+   color: #fff200;
+   font-size: 20px;
+}
+.KUNDEN{
+   margin-top: -3%;
+}
+#un-title{
+   color: #fff200;
+}
+.mr-4{
+   color: black;
+}
+#color-f{
+   background-color: black;
+   color: #fff200;
+}
+#black-text{
+   color: black;
+}
+#white-text{
+   color: white;
+}
 
-}
-.carousel-item{
- size=100%;
-   z-index: 1;
-  height: 500px;
-}
 
-.list-group{
-margin-right: 55px;
-margin-left: 35px;
-padding: 0;
-}
-.list-group-item{
-color: #FF00AA;
-font-size: 17px;
-text-align: left;
-}
-
-.floatRight  {
-	float: right;
-}
-.öffen{
-background-color: #ededed;
-}
-
-.prod{
-margin-left: 35px;
-}
-.price{
-float: right;
-color: #FF00AA;
-}
